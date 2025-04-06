@@ -2,7 +2,7 @@
   
 
 ## Overview
-The Phishing Link Identifier is a machine learning project designed to detect phishing URLs using XGBoost. By engineering 43 features from a Kaggle dataset of 450,176 URLs, the model identifies phishing patterns such as suspicious keywords and typosquatting, achieving an accuracy of over 0.99. This project aims to enhance cybersecurity by enabling real-time phishing detection, with potential deployment as a browser extension.
+Machine learning model to detect phishing URLs using XGBoost, achieving high accuracy (99.5%) on a balanced dataset of over 200,000 URLs. This was done by engineering 48 features, such as "suspicious keywords" and the presence of "s" at the end of "http". Python code was written to enable real-world deployment in a browser extension to enhance cybersecurity.phishing patterns such as suspicious keywords and typosquatting, achieving an accuracy of over 0.99. This project aims to enhance cybersecurity by enabling real-time phishing detection, with potential deployment as a browser extension.
 
 ## Table of Contents
 - [Requirements](#Requirements)
@@ -53,8 +53,14 @@ seaborn
 
 ## Results
 Model Performance:
-- XGBoost achieved an accuracy of over 0.99, slightly outperforming Logistic Regression (accuracy 0.9888, AUC-ROC 0.9975).
-- Precision: 0.9966, Recall: 0.9794, F1-Score: 0.9879 (Logistic Regression).
+- XGBoost achieved an accuracy of 0.995, slightly outperforming Logistic Regression (accuracy 0.9888, AUC-ROC 0.9975).
+
+| Model                 | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|-----------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression   | 0.99     | 1         | 0.98   | 0.99     | 1       |
+| 5CV Logistic Regression | 0.99   | 1         | 0.98   | 0.99     | 1       |
+| XGBoost               | 1        | 1         | 0.99   | 1        | 1       |
+
 - Feature Importance (Gain-Based) -> Top features: has_suspicious_keywords and has_https.
 
 Sample Prediction:
