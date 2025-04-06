@@ -20,12 +20,12 @@ Machine learning model to detect phishing URLs using XGBoost, achieving high acc
 
 ## Requirements
 
-pandas
-numpy
-scikit-learn
-xgboost
-matplotlib
-seaborn
+- pandas
+- numpy
+- scikit-learn
+- xgboost
+- matplotlib
+- seaborn
 
 
 ## Dataset
