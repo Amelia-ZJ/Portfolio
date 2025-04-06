@@ -46,7 +46,7 @@ Machine learning model to detect phishing URLs using XGBoost, achieving high acc
 - Feature importance plots and evaluation metrics (e.g., accuracy, AUC-ROC) are saved in the results/ directory.
 - Generate a feature importance plots.
 
-## Test a URL:
+## Test a URL
 - Choose new URL to test model.
 - Run URL through Feature Extraction functions.
 - Test on trained model to classify new URL as "legitimate" or "phishing".
