@@ -5,7 +5,7 @@ This Portfolio will contain a collection of 10 projects created throughout a Dat
 
 --------
 Phishing Link Identifier
-
+-
 Machine learning model to detect phishing URLs using XGBoost, achieving high accuracy (99.5%) on a balanced dataset of over 200,000 URLs. This was done by engineering 48 features, such as "suspicious keywords" and the presence of "s" at the end of "http". Python code was written to enable real-world deployment in a browser extension to enhance cybersecurity.
 
 --------
