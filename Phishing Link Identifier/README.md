@@ -7,19 +7,14 @@ Machine learning model to detect phishing URLs using XGBoost, achieving high acc
 ## Table of Contents
 - [Requirements](#Requirements)
 - [Dataset](#Dataset)
-- [Steps](#steps)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Features](#features)
-- [Results](#results)
-- [Challenges and Limitations](#challenges-and-limitations)
+- [Results](#Results)
+- [Challenges](#Challenges)
+- [Limitations](#Limitations)
 - [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [License](#License)
+- [Acknowledgements](#Acknowledgements)
 
 ## Requirements
-
 - pandas
 - numpy
 - scikit-learn
@@ -29,7 +24,6 @@ Machine learning model to detect phishing URLs using XGBoost, achieving high acc
 
 
 ## Dataset
-
 - Download the dataset from Kaggle and place it in the data/ directory as url_data.csv.
 - The dataset contains 450,176 URLs labeled as "legitimate" or "phishing".
 
@@ -42,15 +36,6 @@ Machine learning model to detect phishing URLs using XGBoost, achieving high acc
 - Run the Feature Extraction functions to obtain the 43 features of each URL for Model Training.
 - The main script (train_model.py) extracts 43 features, balances the dataset, trains the XGBoost model, and evaluates its performance.
 
-## Visualize Results
-- Feature importance plots and evaluation metrics (e.g., accuracy, AUC-ROC) are saved in the results/ directory.
-- Generate a feature importance plots.
-
-## Test a URL
-- Choose new URL to test model.
-- Run URL through Feature Extraction functions.
-- Test on trained model to classify new URL as "legitimate" or "phishing".
-
 ## Results
 Model Performance:
 - XGBoost achieved an accuracy of 0.995, slightly outperforming Logistic Regression (accuracy 0.9888, AUC-ROC 0.9975).
@@ -62,6 +47,7 @@ Model Performance:
 | XGBoost               | 1        | 1         | 0.99   | 1        | 1       |
 
 - Feature Importance (Gain-Based) -> Top features: has_suspicious_keywords and has_https.
+- Generate a feature importance plots.
 
 Sample Prediction:
 - Test URL classified as "Phishing" with 100% probability, validating real-world applicability.
