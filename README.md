@@ -44,7 +44,11 @@ Pedestrian Deaths & SUVs
 Exploring the link between rising U.S. pedestrian deaths and increasing SUV sales. Building on a 2004 study showing SUVs are over twice as deadly to pedestrians as cars, EDA confirms SUV sales strongly correlate with deaths, outpacing cell phone subscriptions in regression models. The study missed deeper analysis of handheld device bans and lacked data on death causes (e.g., distracted driving). Assumptions about passenger car sales were disproven, and data inconsistencies posed challenges.
 
 --------
-TBD
+Nike Sentiment
+-
+Exploring customer sentiment about Nike through discussions on Reddit (2022 to 2025). This analysis seeks to understand the root of customer perception issues through Reddit comments using sentiment analysis and topic modeling. Results will help inform Nike’s product strategy, branding, and investor relations by identifying key pain points and areas of customer enthusiasm.
 
 --------
-TBD
+Smart Manufacturing
+-
+This project applies machine learning techniques to minimize unplanned downtime in manufacturing facilities using IoT sensor data. By predicting machine failures in advance and identifying root causes, the model enables proactive maintenance, improving productivity and reducing operational costs. The system uses XGBoost for binary and multiclass classification, supported by SHAP for interpretability and SMOTE to address class imbalance.
