@@ -24,9 +24,9 @@ Loan Application Outcomes
 Evaluating of loan application outcomes (approved/denied). Initial KNN modeling (K=5) achieved 70% training accuracy, improving to 75% with K=4 via GridSearchCV and 5-fold cross-validation, though test accuracy was 67%. Expanding GridSearchCV to include Logistic Regression and Random Forest revealed Logistic Regression as the best model (83% accuracy) with L1 penalty, liblinear solver, and tuned C, excelling due to the dataset’s structured, binary, and numeric nature, while KNN struggled with binary feature distances and Random Forest overfit the small dataset.
 
 --------
-Movie Review Sentiment Analysis
+Netflix Viewership
 -
-Sentiment analysis of movie reviews. N = 25,000. TF-IDF vectorization is applied to transform the text, and two models are tested: Logistic Regression (88% test accuracy) and Support Vector Machine (SVM, 87.5% accuracy). Performance metrics, including accuracy, precision, recall, F1-score, confusion matrices, and ROC curves, are evaluated, with Logistic Regression slightly outperforming SVM due to better recall, making it the preferred model for this binary sentiment classification task.
+Analying trends in Netflix’s most-watched and highest-rated content in the United States to determine what characteristics drive engagement. With Netflix’s share of U.S. streaming viewership declining from 8.4% to 7.5% (as of October 2024), this analysis aims to support strategic content creation that can increase viewership, ad revenue, subscriptions, and ultimately shareholder value. The findings are intended for Netflix’s C-suite decision-makers.
 
 --------
 Shelter Dog Adoptability
