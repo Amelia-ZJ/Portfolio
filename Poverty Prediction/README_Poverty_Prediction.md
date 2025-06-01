@@ -2,6 +2,7 @@
 
 ## Overview
 This project supports the United Nations’ Sustainable Development Goal #1: the eradication of poverty by 2030. Using real-world survey data from Costa Rica, we built a machine learning model to classify households into one of four poverty levels. The project aims to assist government programs like *Puente al Desarrollo* in targeting at-risk households more effectively by considering more than just income.
+The final model (Gradient Boosting - XGBoost) shows promise for aiding poverty reduction programs by predicting household poverty based on factors like family size and education, though further refinement is needed.
 
 ## Table of Contents
 - [Requirements](#requirements)

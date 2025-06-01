@@ -16,7 +16,8 @@ Examines the surge in U.S. airport complaints since 2020, focusing on Orlando In
 --------
 Predicting Costa Rican Household Poverty Levels
 -
-Using Gradient Boosting (XGBoost) for predicting poverty levels in Costa Rica, chosen for its ability to handle mixed feature types and non-linear relationships, despite being less interpretable. Initial testing yielded a strong performance (MAE: 0.1156, QWK: 0.8960), with minor misclassification issues for poverty levels 2 and 3. Using GridSearchCV with 5-fold cross-validation, the model improved (MAE: 0.0842, QWK: 0.9241), though recall for poverty level 2 declined slightly. The final model, with optimized parameters, shows promise for aiding poverty reduction programs by predicting household poverty based on factors like family size and education, though further refinement is needed to enhance accuracy for at-risk levels before integration into Costa Rica’s welfare system.
+This project supports the United Nations’ Sustainable Development Goal #1: the eradication of poverty by 2030. Using real-world survey data from Costa Rica, we built a machine learning model to classify households into one of four poverty levels. The project aims to assist government programs like *Puente al Desarrollo* in targeting at-risk households more effectively by considering more than just income.
+The final model (Gradient Boosting - XGBoost) shows promise for aiding poverty reduction programs by predicting household poverty based on factors like family size and education, though further refinement is needed to enhance accuracy for at-risk levels before integration into Costa Rica’s welfare system.
 
 --------
 Loan Application Outcomes
