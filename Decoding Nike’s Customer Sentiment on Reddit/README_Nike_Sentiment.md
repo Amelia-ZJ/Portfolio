@@ -1,4 +1,4 @@
-# Nike Sentiment
+# Decoding Nike's Customer Sentiment on Reddit
   
 
 ## Overview
