@@ -39,7 +39,7 @@ Predicting Solar Proton Events
 Leveraging NiFi, HDFS, Hive, Spark, Spark MLlib, and HBase—to process and predict solar flare magnitudes (Max PFU) using NOAA Space Weather Prediction Center data from 1976 to 2024. Solar flares, massive solar radiation bursts, can disrupt Earth’s technology, making accurate, real-time forecasts vital for risk management. The pipeline ingests data via NiFi from a GitHub-hosted CSV, stores it in HDFS, processes it with Hive and PySpark (cleaning, transforming features like latitude), and trains a Decision Tree Regression model in Spark MLlib, achieving an R² of 0.75 and RMSE of 50.23, with latitude as the top predictor. Performance metrics are stored in HBase, demonstrating a scalable framework for real-time solar flare prediction.
 
 --------
-Pedestrian Deaths & SUVs
+SUVs & Pedestrian Deaths
 -
 Exploring the link between rising U.S. pedestrian deaths and increasing SUV sales. Building on a 2004 study showing SUVs are over twice as deadly to pedestrians as cars, EDA confirms SUV sales strongly correlate with deaths, outpacing cell phone subscriptions in regression models. The study missed deeper analysis of handheld device bans and lacked data on death causes (e.g., distracted driving). Assumptions about passenger car sales were disproven, and data inconsistencies posed challenges.
 
