@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores the rise in pedestrian fatalities in the United States between 2010 and 2019 and investigates potential contributing factors — particularly the increasing number of SUVs and cell phone subscriptions. Using two structured datasets (by year and by state), we conducted extensive data analysis and statistical testing to uncover correlations and trends. The project uses Python for data manipulation, visualization, and regression modeling.
+This project explores the rise in pedestrian fatalities in the United States between 2010 and 2019 and investigates potential contributing factors. Foucusing on the increasing number of SUVs and cell phone subscriptions. Using two structured datasets (by year and by state), we conducted extensive data analysis and statistical testing to uncover correlations and trends. The project uses Python for data manipulation, visualization, and regression modeling.
 
 ## Objectives
 
@@ -13,8 +13,8 @@ This project explores the rise in pedestrian fatalities in the United States bet
 
 ## Data Sources
 
-- **pedestriandeathsbystate.xlsx**: State-level data from 2010–2019, including fatality rates and policy indicators.
-- **pedestriandeathsbyyear.xlsx**: National-level data for the same period, including vehicle types and cell subscriptions.
+- State-level data from 2010–2019, including fatality rates and policy indicators.
+- National-level data for the same period, including vehicle types and cell subscriptions.
 
 ## Technologies Used
 
@@ -72,5 +72,8 @@ This project explores the rise in pedestrian fatalities in the United States bet
 - Investigate causal inference techniques (e.g., difference-in-differences)
 - Explore lag effects of policy changes on safety outcomes
 
-## Repository Structure
+## Acknowledgments
+
+- National Highway Traffic Safety Administration (NHTSA)
+- U.S. Census Data
 
