@@ -1,7 +1,7 @@
 # Loan Application Outcomes
 
 ## Overview
-This project analyzes loan application outcomes (approved or denied) using machine learning classification models. The goal was to determine the best-performing algorithm through model comparison and hyperparameter tuning. The analysis includes K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest classifiers. The final model was selected based on cross-validation accuracy and generalization to the test dataset.
+This project analyzes loan application outcomes (approved or denied) using machine learning classification models. The goal was to determine the best-performing algorithm through model comparison and hyperparameter tuning. The analysis includes K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest classifiers with cross-validation.
 
 ## Table of Contents
 - [Requirements](#requirements)
